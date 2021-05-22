@@ -7,3 +7,9 @@ Visit the [live application](https://devsecret.netlify.app/)
 1.  Go to [guides](https://devsecret.netlify.app/guides) page.
 2.  Login.
 3.  Tadaa! See the secret content.
+
+### Tech Stack
+
+- Netlify-Identity
+- Netlify-Functions
+- NextJS
