@@ -9,8 +9,7 @@ export default function Navbar() {
   return (
     <div className="container">
       <nav>
-        <Image src="/rupee.png" width={50} height={48} />
-        <h1>Gaming Vibes</h1>
+        <h1>Devugur Secrets</h1>
         {/* {authReady && ( */}
         <ul>
           <li>
@@ -20,7 +19,7 @@ export default function Navbar() {
           </li>
           <li>
             <Link href="/guides">
-              <a>Guides</a>
+              <a>Secrets</a>
             </Link>
           </li>
 
@@ -39,7 +38,7 @@ export default function Navbar() {
         {/* )} */}
       </nav>
       <div className="banner">
-        <Image src="/banner.png" width={966} height={276} />
+        <Image src="/banner.jpg" width={640} height={409} />
       </div>
     </div>
   );

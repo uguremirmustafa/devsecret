@@ -1,12 +1,20 @@
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Home.module.css';
+import Link from 'next/link';
 
 export default function Home() {
   return (
     <div className={styles.home}>
-       <h2>Welcome to Gaming Vibes</h2>
+      <h2>
+        <p>This is my awesome secret website</p>
+      </h2>
       <div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis deleniti rem aspernatur odit hic autem neque repellat alias? Debitis veniam inventore ipsum similique quos animi ipsa asperiores fuga dolor id. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis deleniti rem aspernatur odit hic autem neque repellat alias? Debitis veniam inventore ipsum similique quos animi ipsa asperiores fuga dolor id. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis deleniti rem aspernatur odit hic autem neque repellat alias? Debitis veniam inventore ipsum similique quos animi ipsa asperiores fuga dolor id.</p>
+        You will see very secret website if you go to{' '}
+        <Link href="/guides">
+          <span style={{ color: 'red', textDecoration: 'underline', cursor: 'pointer' }}>
+            this page
+          </span>
+        </Link>
       </div>
     </div>
-  )
+  );
 }

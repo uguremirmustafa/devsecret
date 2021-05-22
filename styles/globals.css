@@ -55,3 +55,7 @@ nav li.btn:hover {
 .banner img {
   border-radius: 6px;
 }
+.banner {
+  display: flex;
+  justify-content: center;
+}
